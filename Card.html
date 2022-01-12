@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<head>
+	<title>My second page</title>
+	<style type="text/css">
+	
+	@font-face {
+    	font-family: 'Open Sans';
+  		src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+	}
+	@font-face {
+		font-family: 'Roboto Slab'
+		src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+	}
+
+	header {
+		padding: 20px;
+    	text-align: center;
+    	font-family: Roboto Slab; 
+    	border-bottom: 1px solid gray;
+
+	}
+	body {
+		margin: 10px;
+		font-family: Open Sans;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		height: 100vh;
+    	
+	}
+	main {
+		margin: 10px 100px;
+		display: flex;
+		align-items: flex-start;
+		flex-grow: 1;
+ 		
+	}
+
+	aside {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+	section {
+		display: flex;
+		flex-direction: column;
+		margin: 20px;
+		margin-left: 30px;
+		flex-grow: 1;
+
+	}
+		.header-link {
+    	margin: 0 10px;
+    	color: orange;
+		}
+		.header-name {
+			margin: 15px;
+			padding: 15px;
+			color: gray;
+			text-align: center;
+			font-family: Roboto Slab;
+		}
+		.img-wrapper {
+			margin-top: 15px;
+			margin-bottom: 15px;
+			padding: 1px;
+			background-color: grey;
+			text-align: center;
+		}
+
+		h2 {
+			color: gray;
+			border-bottom: 2px solid #90ee90;
+   			padding-left: 30px;
+   			color: gray;
+    		margin-top: 10px;
+    		margin-bottom: 10px;
+    		font-family: Roboto Slab; 
+		}
+
+		footer {
+			border-top: 1px solid gray;
+			text-align: right;
+		}
+.Contacts-item {
+	display: flex;
+    align-items: center;
+}
+
+.link {
+	color: orange;
+}
+
+.Contacts-icon {
+margin-right: 15px;
+}
+
+	</style>
+
+</head>
+<body>
+	<header>
+		<a href="#About" class="header-link">Обо мне</a>
+		<a href="#Hobby" class="header-link">Хобби</a>
+	</header>
+<main>
+	<aside>
+		<div class="img-wrapper">
+			<img src="Myphoto.jpg" width="290" height="370" alt="Здесь должно быть мое фото">
+		</div>
+
+<p class="Contacts-item">
+<img src="file:///Users/evgenijkostogorov/Downloads/mail_outline_black_24dp.svg" alt="email:" class="Contacts-icon">
+<a href="mailto:msbluekis@mail.ru" class="link"> msbluekis@mail.ru</a>
+</p>
+	</aside>
+		
+
+<section>
+	<h1 class="header-name">Яна Костогорова. Юрист - разработчик</h1>
+	<h2 id="About"><b>Обо мне</b></h2>
+		<p>Мне 26 лет, родилась в Москве. Мечтаю больше проводить времени в путешествиях!</p>
+
+	<h2 id="Hobby">Хобби</h2>
+
+		<ul><li>Параплан (полеты)</li>
+			<li>Музыка (пою)</li>
+			<li>Рисую, занимаюсь гимнастикой</li>
+		</ul>
+</section>
+</main>
+<footer>
+	<p>2021. All rights reserved</p>
+	
+</footer>
+</body>
+</html>
